@@ -13,7 +13,7 @@ form{
 }
 
 .form-control{
-    text-align: middle;
+    text-align: left;
     margin-bottom: 25px;
 }
 
@@ -31,4 +31,23 @@ form{
     padding: 10px;
     display: block;
     width: 95%;
+}
+
+.form-control input[type="radio"]
+
+.form-control input[type="checkbox"]{
+    display: inline-block;
+    width: auto;
+}
+
+button{
+     background-color: #068da5;
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
